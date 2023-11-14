@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "goldengatebiomanager"
+version = "0.1.0"
+description = ""
+authors = ["Nils Amiet <nils.amiet@kudelskisecurity.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+fido2 = "^1.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
